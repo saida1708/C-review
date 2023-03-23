@@ -1,0 +1,55 @@
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Enter username:");
+        string userName = Console.ReadLine();
+        Console.WriteLine("Username is: " + userName);
+}
+}
+
+string first = "Saida";
+string last = "Mansim";
+// string concatenation
+string name = first + " " + last;
+Console.WriteLine(name);
+
+//////////////////////////////////////////////
+Console.WriteLine("Think of a number:");
+int myNum = Convert.
+ToInt32
+(Console.
+ReadLine()
+);
+Console.WriteLine("Your number is: " + myNum);
+// add 1 to the value
+int x = 10;
+x++;
+//// add 5 to the value
+int x = 10;
+x +=5;
+
+//find max of two values
+int x = 5;
+int y = 10;
+Console.WriteLine(Math.Max(x, y));
+
+//square root of the value
+Console.WriteLine(Math.Sqrt(64));
+
+// round up the value
+Console.WriteLine(Math.Round(2.6));
+
+// conditionals
+int j = 10;
+if (j == 10) {
+  Console.WriteLine("I get a cat");
+} else if (j > 10) {
+  Console.WriteLine("I don't");
+} else {
+  Console.WriteLine("I also don't");
+}
+
+
+
